@@ -1,6 +1,7 @@
 function App() {
     const { Container, Row, Col } = ReactBootstrap;
     return (
+        <h1>ToDo App by Kulik Konstantin (GitHub username: kotjik)</h1>
         <Container>
             <Row>
                 <Col md={{ offset: 3, span: 6 }}>
@@ -89,8 +90,7 @@ function AddItemForm({ onNewItem }) {
             });
     };
 
-    return (
-        <h1>ToDo App by Kulik Konstantin (GitHub username: kotjik)</h1>
+    return (        
         <Form onSubmit={submitNewItem}>
             <InputGroup className="mb-3">
                 <Form.Control
