@@ -90,6 +90,7 @@ function AddItemForm({ onNewItem }) {
     };
 
     return (
+        <h1>ToDo App by Kulik Konstantin (GitHub username: kotjik)</h1>
         <Form onSubmit={submitNewItem}>
             <InputGroup className="mb-3">
                 <Form.Control
