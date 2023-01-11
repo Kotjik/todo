@@ -1,8 +1,8 @@
 function App() {
     const { Container, Row, Col } = ReactBootstrap;
     return (
-        <h1>ToDo App by Kulik Konstantin (GitHub username: kotjik)</h1>
         <Container>
+            <h1>ToDo App by Kulik Konstantin (GitHub username: kotjik)</h1>
             <Row>
                 <Col md={{ offset: 3, span: 6 }}>
                     <TodoListCard />
